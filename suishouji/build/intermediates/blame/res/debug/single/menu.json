@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\nav_expense_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\nav_expense_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\add_or_edit_expense_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\add_or_edit_expense_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\report_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\report_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\sync_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\sync_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\setting_meta_list_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\setting_meta_list_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\setting_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\setting_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\register_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\register_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\expense_photo_edit_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\expense_photo_edit_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\main_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\main_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\buy_flow_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\buy_flow_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\setting_account_list_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\setting_account_list_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\budget_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\budget_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\report_setting_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\report_setting_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\setting_subcategory_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\setting_subcategory_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\report_expense_list_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\report_expense_list_activity_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\menu\\setting_edit_common_activity_menu.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\menu\\setting_edit_common_activity_menu.xml"
+    }
+]

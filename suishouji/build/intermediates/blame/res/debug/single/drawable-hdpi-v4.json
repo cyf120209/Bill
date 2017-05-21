@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_row_layout_middle.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_row_layout_middle.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buy_sync_service_bg.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\buy_sync_service_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_lv_item_selector_bg_transition.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_lv_item_selector_bg_transition.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_toolbar_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_toolbar_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\transfer_info_top.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\transfer_info_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_keypad_display.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_keypad_display.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_keypad_clean.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_keypad_clean.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sync_panel_et.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\sync_panel_et.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_btn_radio.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_btn_radio.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_lv_item_for_metadata_bg.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_lv_item_for_metadata_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_keypad_digit.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_keypad_digit.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_keypad_cancel.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_keypad_cancel.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_row_layout_top.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_row_layout_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_keypad_currency.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_keypad_currency.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pre_month_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\pre_month_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash_screen_bg.jpg",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\splash_screen_bg.jpg"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_lv_item_bg.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_lv_item_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\transfer_info_note.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\transfer_info_note.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_clear_button.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\keyboard_clear_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\form_row_input_middle_short_left.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\form_row_input_middle_short_left.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\copyright_about_bg.jpg",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\copyright_about_bg.jpg"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\transfer_info_project.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\transfer_info_project.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_lv_item_selector_bg.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_lv_item_selector_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_keypad_done.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_keypad_done.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_setting_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\main_setting_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_btn_check.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_btn_check.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\expense_cost_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\expense_cost_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_row_layout_bottom.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_row_layout_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_budget_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\main_budget_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_keypad_delete.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_keypad_delete.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_row_layout.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_row_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_lv_round_corner_bg.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_lv_round_corner_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\transfer_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\transfer_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\expense_camera_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\expense_camera_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_report_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\main_report_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\payout_tab_btn_radio.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\payout_tab_btn_radio.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_add_expense_quickly.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\main_add_expense_quickly.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\income_tab_btn_radio.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\income_tab_btn_radio.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\form_row_input_middle.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\form_row_input_middle.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\keyboard_ok_button.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\keyboard_ok_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\form_row_input_top.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\form_row_input_top.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_lv_item_higher_bg.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\common_lv_item_higher_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\next_month_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\next_month_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_row_stat.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\main_row_stat.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_et.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\widget_et.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\form_row_input_middle_short_right.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\form_row_input_middle_short_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_add_expense_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\main_add_expense_btn.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\transfer_spinner.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\transfer_spinner.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\main_account_btn.xml",
+        "source": "E:\\AndroidStudio\\workplace\\Bill\\suishouji\\src\\main\\res\\drawable-hdpi\\main_account_btn.xml"
+    }
+]

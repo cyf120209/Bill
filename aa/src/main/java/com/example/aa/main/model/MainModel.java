@@ -15,4 +15,8 @@ public interface MainModel {
     List<String> getUserList(Long orderId);
 
     void clearAll();
+
+    void update(Orders orders);
+
+    void delete(Orders orders);
 }

@@ -29,6 +29,12 @@ public class BillModelImpl implements BillModel {
     }
 
     @Override
+    public List<User> getUser(Long id) {
+        DaoSession daoSession = DBManager.getInstance().getRDaoSession();
+        return null;
+    }
+
+    @Override
     public Long saveOrder(Orders order) {
         wDaoSession = DBManager.getInstance().getWDaoSession();
         long orderId = wDaoSession.getOrdersDao().insert(order);

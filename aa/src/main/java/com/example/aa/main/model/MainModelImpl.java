@@ -52,4 +52,16 @@ public class MainModelImpl implements MainModel {
         wDaoSession.getOrderUserDao().deleteAll();
         wDaoSession.getOrdersDao().deleteAll();
     }
+
+    @Override
+    public void update(Orders orders) {
+        DaoSession wDaoSession = DBManager.getInstance().getWDaoSession();
+        wDaoSession.getOrdersDao().update(orders);
+    }
+
+    @Override
+    public void delete(Orders orders) {
+        DaoSession wDaoSession = DBManager.getInstance().getWDaoSession();
+        wDaoSession.getOrdersDao().delete(orders);
+    }
 }

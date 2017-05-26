@@ -27,6 +27,12 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.MyViewHolder
 //    List<String> userList=new ArrayList<>();
     private OnLoadUserClickListener loadUserClickListener;
 
+    private int position;
+
+    public int getPosition() {
+        return position;
+    }
+
     public void setOnLoadUserClickListener(OnLoadUserClickListener loadUserClickListener) {
         this.loadUserClickListener = loadUserClickListener;
     }
@@ -66,7 +72,7 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.MyViewHolder
         return orderList.size();
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder{
+    class MyViewHolder extends RecyclerView.ViewHolder implements View.OnLongClickListener{
 
         private final TextView tv_restaurant;
         private final TextView tv_total_price;
@@ -88,7 +94,14 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.MyViewHolder
             LinearLayoutManager layoutManager = new LinearLayoutManager(OrderAdapter.this.context);
             layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
             rcl_bill_user.setLayoutManager(layoutManager);
+            itemView.setLongClickable(true);
+            itemView.setOnLongClickListener(this);
+        }
 
+        @Override
+        public boolean onLongClick(View v) {
+            position=getAdapterPosition();
+            return false;
         }
     }
 

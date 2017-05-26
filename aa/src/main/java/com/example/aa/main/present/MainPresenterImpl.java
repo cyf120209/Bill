@@ -35,4 +35,14 @@ public class MainPresenterImpl extends BasePresenter<MainView> implements MainPr
     public void clearAll() {
         mainModel.clearAll();
     }
+
+    @Override
+    public void update(Orders orders) {
+        mainModel.update(orders);
+    }
+
+    @Override
+    public void delete(Orders orders) {
+        mainModel.delete(orders);
+    }
 }

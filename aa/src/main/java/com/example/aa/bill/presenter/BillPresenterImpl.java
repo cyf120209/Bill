@@ -28,6 +28,11 @@ public class BillPresenterImpl extends BasePresenter<BillView> implements BillPr
     }
 
     @Override
+    public List<User> getUser(Long id) {
+        return null;
+    }
+
+    @Override
     public Long saveOrder(Orders order) {
         return billModel.saveOrder(order);
     }

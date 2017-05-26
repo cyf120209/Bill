@@ -14,6 +14,8 @@ public interface BillPresenter {
 
     List<User> getUser();
 
+    List<User> getUser(Long id);
+
     Long saveOrder(Orders order);
 
     Boolean saveDetails(List<OrderUser> orderUserList);

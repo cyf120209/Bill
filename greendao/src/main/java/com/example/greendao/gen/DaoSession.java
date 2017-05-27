@@ -8,9 +8,13 @@ import org.greenrobot.greendao.database.Database;
 import org.greenrobot.greendao.identityscope.IdentityScopeType;
 import org.greenrobot.greendao.internal.DaoConfig;
 
-import com.example.greendao.Test;
-import com.example.greendao.User;
+import com.example.greendao.entity.Orders;
+import com.example.greendao.entity.OrderUser;
+import com.example.greendao.entity.Test;
+import com.example.greendao.entity.User;
 
+import com.example.greendao.gen.OrdersDao;
+import com.example.greendao.gen.OrderUserDao;
 import com.example.greendao.gen.TestDao;
 import com.example.greendao.gen.UserDao;
 
@@ -23,9 +27,13 @@ import com.example.greendao.gen.UserDao;
  */
 public class DaoSession extends AbstractDaoSession {
 
+    private final DaoConfig ordersDaoConfig;
+    private final DaoConfig orderUserDaoConfig;
     private final DaoConfig testDaoConfig;
     private final DaoConfig userDaoConfig;
 
+    private final OrdersDao ordersDao;
+    private final OrderUserDao orderUserDao;
     private final TestDao testDao;
     private final UserDao userDao;
 
@@ -33,22 +41,42 @@ public class DaoSession extends AbstractDaoSession {
             daoConfigMap) {
         super(db);
 
+        ordersDaoConfig = daoConfigMap.get(OrdersDao.class).clone();
+        ordersDaoConfig.initIdentityScope(type);
+
+        orderUserDaoConfig = daoConfigMap.get(OrderUserDao.class).clone();
+        orderUserDaoConfig.initIdentityScope(type);
+
         testDaoConfig = daoConfigMap.get(TestDao.class).clone();
         testDaoConfig.initIdentityScope(type);
 
         userDaoConfig = daoConfigMap.get(UserDao.class).clone();
         userDaoConfig.initIdentityScope(type);
 
+        ordersDao = new OrdersDao(ordersDaoConfig, this);
+        orderUserDao = new OrderUserDao(orderUserDaoConfig, this);
         testDao = new TestDao(testDaoConfig, this);
         userDao = new UserDao(userDaoConfig, this);
 
+        registerDao(Orders.class, ordersDao);
+        registerDao(OrderUser.class, orderUserDao);
         registerDao(Test.class, testDao);
         registerDao(User.class, userDao);
     }
     
     public void clear() {
+        ordersDaoConfig.getIdentityScope().clear();
+        orderUserDaoConfig.getIdentityScope().clear();
         testDaoConfig.getIdentityScope().clear();
         userDaoConfig.getIdentityScope().clear();
+    }
+
+    public OrdersDao getOrdersDao() {
+        return ordersDao;
+    }
+
+    public OrderUserDao getOrderUserDao() {
+        return orderUserDao;
     }
 
     public TestDao getTestDao() {

@@ -3,6 +3,7 @@ package com.example.greendao;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.example.greendao.entity.User;
 import com.example.greendao.gen.DaoMaster;
 import com.example.greendao.gen.DaoSession;
 import com.example.greendao.gen.UserDao;
@@ -40,7 +41,7 @@ public class DbManager {
         return mInstance;
     }
 
-    private SQLiteDatabase getReadableDatabase(){
+    public SQLiteDatabase getReadableDatabase(){
         if(openHelper==null){
             openHelper=new DaoMaster.DevOpenHelper(context,dbName,null);
         }
@@ -48,7 +49,7 @@ public class DbManager {
         return readableDatabase;
     }
 
-    private SQLiteDatabase getWriteableDatabase(){
+    public SQLiteDatabase getWriteableDatabase(){
         if(openHelper==null){
             openHelper=new DaoMaster.DevOpenHelper(context,dbName,null);
         }

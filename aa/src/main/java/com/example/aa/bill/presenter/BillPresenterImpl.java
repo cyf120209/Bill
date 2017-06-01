@@ -41,4 +41,9 @@ public class BillPresenterImpl extends BasePresenter<BillView> implements BillPr
     public Boolean saveDetails(List<OrderUser> orderUserList) {
         return billModel.saveDetails(orderUserList);
     }
+
+    @Override
+    public void deleteDetails(Long orderId) {
+        billModel.deleteDetails(orderId);
+    }
 }

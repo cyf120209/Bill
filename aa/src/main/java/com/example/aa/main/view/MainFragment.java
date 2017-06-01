@@ -174,7 +174,7 @@ public class MainFragment extends BaseFragment<MainView,MainPresenterImpl> imple
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        if(!subscribe.isUnsubscribed()){
+        if(subscribe!=null && !subscribe.isUnsubscribed()){
             subscribe.unsubscribe();
         }
     }

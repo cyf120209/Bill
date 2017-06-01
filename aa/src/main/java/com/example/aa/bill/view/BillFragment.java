@@ -20,7 +20,9 @@ import com.example.aa.entity.User;
 import com.example.aa.utils.RxBus;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
@@ -37,6 +39,7 @@ public class BillFragment extends BaseFragment<BillView,BillPresenterImpl> imple
     private EditText et_discount;
 
     private List<User> mUserList=new ArrayList<>();
+    private Map<Long,User> mUserMap=new HashMap<>();
     private BillAdapter billAdapter;
     private Subscription subscribe;
     private Orders mOrders;
@@ -70,6 +73,9 @@ public class BillFragment extends BaseFragment<BillView,BillPresenterImpl> imple
             return;
         }
         mUserList.addAll(userList);
+        for (User user:mUserList){
+            mUserMap.put(user.getId(),user);
+        }
         billAdapter.notifyDataSetChanged();
         subscribe = RxBus.getInstance().toObservableSticky(Orders.class)
                 .observeOn(AndroidSchedulers.mainThread())
@@ -83,6 +89,13 @@ public class BillFragment extends BaseFragment<BillView,BillPresenterImpl> imple
                         double discount = orders.getDiscount();
                         et_total_money.setText("" + totalPrice);
                         et_discount.setText("" + discount);
+                        List<User> list = mOrders.getUserList();
+                        List<Long> users=new ArrayList<>();
+                        for (User user:list){
+                            users.add(user.getId());
+                        }
+                        billAdapter.setUsers(users);
+                        billAdapter.notifyDataSetChanged();
                     }
                 });
     }
@@ -119,6 +132,8 @@ public class BillFragment extends BaseFragment<BillView,BillPresenterImpl> imple
         mOrders.setCount(users.size());
         mOrders.setOrderTime(System.currentTimeMillis());
         Long orderId = mPresenter.saveOrder(mOrders);
+        mPresenter.deleteDetails(orderId);
+        mOrders.resetUserList();
         List<OrderUser> orderUserList=new ArrayList<>();
         for (Long userId :users){
             orderUserList.add(new OrderUser(null,orderId,userId));
@@ -135,5 +150,6 @@ public class BillFragment extends BaseFragment<BillView,BillPresenterImpl> imple
     public void onDestroyView() {
         super.onDestroyView();
         subscribe.unsubscribe();
+        RxBus.getInstance().removeStickyEvent(Orders.class);
     }
 }

@@ -1,5 +1,6 @@
 package com.example.aa.gen;
 
+import java.util.List;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteStatement;
 
@@ -8,6 +9,10 @@ import org.greenrobot.greendao.Property;
 import org.greenrobot.greendao.internal.DaoConfig;
 import org.greenrobot.greendao.database.Database;
 import org.greenrobot.greendao.database.DatabaseStatement;
+import org.greenrobot.greendao.query.Query;
+import org.greenrobot.greendao.query.QueryBuilder;
+
+import com.example.aa.entity.OrderUser;
 
 import com.example.aa.entity.User;
 
@@ -30,6 +35,7 @@ public class UserDao extends AbstractDao<User, Long> {
         public final static Property IsExist = new Property(3, boolean.class, "isExist", false, "IS_EXIST");
     };
 
+    private Query<User> orders_UserListQuery;
 
     public UserDao(DaoConfig config) {
         super(config);
@@ -133,4 +139,19 @@ public class UserDao extends AbstractDao<User, Long> {
         return true;
     }
     
+    /** Internal query to resolve the "userList" to-many relationship of Orders. */
+    public List<User> _queryOrders_UserList(Long orderId) {
+        synchronized (this) {
+            if (orders_UserListQuery == null) {
+                QueryBuilder<User> queryBuilder = queryBuilder();
+                queryBuilder.join(OrderUser.class, OrderUserDao.Properties.UserId)
+                    .where(OrderUserDao.Properties.OrderId.eq(orderId));
+                orders_UserListQuery = queryBuilder.build();
+            }
+        }
+        Query<User> query = orders_UserListQuery.forCurrentThread();
+        query.setParameter(0, orderId);
+        return query.list();
+    }
+
 }

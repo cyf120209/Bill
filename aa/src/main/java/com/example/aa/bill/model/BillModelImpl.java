@@ -8,6 +8,8 @@ import com.example.aa.gen.OrderUserDao;
 import com.example.aa.gen.UserDao;
 import com.example.aa.utils.DBManager;
 
+import org.greenrobot.greendao.database.Database;
+
 import java.util.List;
 
 /**
@@ -37,7 +39,7 @@ public class BillModelImpl implements BillModel {
     @Override
     public Long saveOrder(Orders order) {
         wDaoSession = DBManager.getInstance().getWDaoSession();
-        long orderId = wDaoSession.getOrdersDao().insert(order);
+        long orderId = wDaoSession.getOrdersDao().insertOrReplace(order);
         return orderId;
     }
 
@@ -46,5 +48,13 @@ public class BillModelImpl implements BillModel {
         OrderUserDao orderUserDao = wDaoSession.getOrderUserDao();
         orderUserDao.insertInTx(orderUserList);
         return true;
+    }
+
+    @Override
+    public void deleteDetails(Long orderId){
+        OrderUserDao orderUserDao = wDaoSession.getOrderUserDao();
+        Database database = orderUserDao.getDatabase();
+        String sql="delete from ORDER_USER where ORDER_ID="+orderId;
+        database.execSQL(sql);
     }
 }

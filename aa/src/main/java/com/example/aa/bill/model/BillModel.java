@@ -19,4 +19,6 @@ public interface BillModel {
     Long saveOrder(Orders order);
 
     Boolean saveDetails(List<OrderUser> orderUserList);
+
+    void deleteDetails(Long orderId);
 }

@@ -56,7 +56,7 @@ public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.MyViewHolder
         holder.tv_discount.setText(""+order.getDiscount());
         holder.tv_count.setText(""+order.getCount());
         holder.tv_order_time.setText(DateUtils.getYMD(order.getOrderTime()));
-        holder.tv_avg.setText(String.format("%.02f",order.getTotalPrice()/(order.getCount()*1.0)));
+        holder.tv_avg.setText(String.format("%.02f",order.getTotalPrice()*order.getDiscount()/(order.getCount()*1.0)));
         if(loadUserClickListener==null){
             return;
         }

@@ -37,6 +37,10 @@ public class BillAdapter extends RecyclerView.Adapter<BillAdapter.MyViewHolder>{
         return users;
     }
 
+    public void setUsers(List<Long> users) {
+        this.users = users;
+    }
+
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_bill_user, parent, false);
@@ -47,6 +51,9 @@ public class BillAdapter extends RecyclerView.Adapter<BillAdapter.MyViewHolder>{
     public void onBindViewHolder(MyViewHolder holder, int position) {
         User user = userList.get(position);
         holder.tv_userName.setText(user.getUserName());
+        if(users.contains(user.getId())){
+            holder.ck_bill_user.setChecked(true);
+        }
     }
 
     @Override
@@ -54,7 +61,7 @@ public class BillAdapter extends RecyclerView.Adapter<BillAdapter.MyViewHolder>{
         return userList.size();
     }
 
-    class MyViewHolder extends RecyclerView.ViewHolder implements CompoundButton.OnCheckedChangeListener{
+    class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         private final TextView tv_userName;
         private final EditText et_count;
@@ -65,14 +72,15 @@ public class BillAdapter extends RecyclerView.Adapter<BillAdapter.MyViewHolder>{
             tv_userName = (TextView)itemView.findViewById(R.id.tv_userName);
             et_count = (EditText)itemView.findViewById(R.id.et_count);
             ck_bill_user = (CheckBox)itemView.findViewById(R.id.ck_bill_user);
-            ck_bill_user.setOnCheckedChangeListener(this);
+            ck_bill_user.setOnClickListener(this);
+
         }
 
         @Override
-        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+        public void onClick(View v) {
             int position = getAdapterPosition();
             User user = userList.get(position);
-            if (isChecked) {
+            if (!users.contains(user.getId())) {
                 users.add(user.getId());
             }else {
                 users.remove(user.getId());

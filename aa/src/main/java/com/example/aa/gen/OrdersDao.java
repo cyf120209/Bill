@@ -32,6 +32,8 @@ public class OrdersDao extends AbstractDao<Orders, Long> {
         public final static Property OrderTime = new Property(5, Long.class, "orderTime", false, "ORDER_TIME");
     };
 
+    private DaoSession daoSession;
+
 
     public OrdersDao(DaoConfig config) {
         super(config);
@@ -39,6 +41,7 @@ public class OrdersDao extends AbstractDao<Orders, Long> {
     
     public OrdersDao(DaoConfig config, DaoSession daoSession) {
         super(config, daoSession);
+        this.daoSession = daoSession;
     }
 
     /** Creates the underlying database table. */
@@ -103,6 +106,12 @@ public class OrdersDao extends AbstractDao<Orders, Long> {
         if (orderTime != null) {
             stmt.bindLong(6, orderTime);
         }
+    }
+
+    @Override
+    protected final void attachEntity(Orders entity) {
+        super.attachEntity(entity);
+        entity.__setDaoSession(daoSession);
     }
 
     @Override

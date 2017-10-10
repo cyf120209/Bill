@@ -1,2 +1,2 @@
-include ':app', ':greendao', ':motortablet', ':aa'
+include ':app', ':greendao', ':aa'
 include ':suishouji'

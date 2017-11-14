@@ -1,10 +1,16 @@
-package com.uangel.suishouji;
+package com.uangel.suishouji.main.view;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+import com.uangel.suishouji.BudgetActivity;
+import com.uangel.suishouji.NavExpenseActivity;
+import com.uangel.suishouji.R;
+import com.uangel.suishouji.SettingAccountActivity;
+import com.uangel.suishouji.SplashScreenActivity;
+import com.uangel.suishouji.TransactionTabActivity;
 import com.uangel.suishouji.db.MyDbHelper;
 import com.uangel.suishouji.utility.MyProcessBar;
 
@@ -14,7 +20,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;

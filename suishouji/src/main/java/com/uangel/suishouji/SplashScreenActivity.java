@@ -4,6 +4,7 @@
 package com.uangel.suishouji;
 
 import com.uangel.suishouji.db.MyDbHelper;
+import com.uangel.suishouji.main.view.MainActivity;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -13,6 +13,7 @@ import java.util.List;
 
 import com.uangel.suishouji.db.MyDbHelper;
 import com.uangel.suishouji.db.MyDbInfo;
+import com.uangel.suishouji.main.view.MainActivity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
